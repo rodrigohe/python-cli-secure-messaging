@@ -3,7 +3,7 @@
 ## About The Project
 **Python CLI Secure Messaging** is a fast, secure command-line based chat application built entirely in Python. Chats are performed in real-time between two clients who establish a shared connection. This project follows a client-server model, where the running server acts as an intermediary to service all clients.
 
-![Python-CLI-SM-clip](https://github.com/rodrigohe/python-cli-secure-messaging/resources/Python-CLI-SM-clip.mp4)
+https://user-images.githubusercontent.com/64722294/155913647-cc58bebe-768a-4d5d-bdae-29912a1be67c.mp4
 
 Every client and server runs in a multi-threaded environment leveraging Python's *threading* module. Once logged into the system, a running client spawns a sender thread and a receiver thread, to handle sending requests and receiving responses respectively. To handle multiple clients, the server spawns a new thread dedicated to each client connection established over a TCP socket. Concurrency allows each client and the main server to perform multiple tasks at once, and achieve proper synchronization between tasks.
 
